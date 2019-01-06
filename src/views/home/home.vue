@@ -5,7 +5,7 @@
     <!-- 轮播图 -->
     <van-swipe :autoplay="3000" indicator-color="white">
       <van-swipe-item>
-        <img src="//gw.alicdn.com/imgextra/i4/173/O1CN01G63dIF1D9H0f9S5Eg_!!173-0-lubanu.jpg" alt>
+        <img src="//gw.alicdn.com/imgextra/i1/111/O1CN01pLHUhi1CgsSEPGNpl_!!111-0-lubanu.jpg" alt>
       </van-swipe-item>
 
       <van-swipe-item>
@@ -17,7 +17,7 @@
       </van-swipe-item>
 
       <van-swipe-item>
-        <img src="https://aecpm.alicdn.com/simba/img/TB15tIjGVXXXXcoapXXSutbFXXX.jpg" alt>
+        <img src="//gw.alicdn.com/imgextra/i3/110/O1CN01jNPrek1CgQ3ecOxWe_!!110-0-lubanu.jpg" alt>
       </van-swipe-item>
     </van-swipe>
 
@@ -176,7 +176,7 @@
 
         <div class="seckill-item">
           <img
-            src="//img14.360buyimg.com/n1/s150x150_jfs/t11491/11/821570861/133610/1a9048e2/59f92df2N2828fc82.jpg.dpg"
+            src="//img14.360buyimg.com/n1/s150x150_jfs/t1/8987/5/10181/94637/5c208bd8Eae90304a/b7d847b6a42be460.jpg.dpg"
             alt
           >
           <div class="seckill-price">￥2598</div>
@@ -194,11 +194,11 @@
 
         <div class="seckill-item">
           <img
-            src="//img14.360buyimg.com/n1/s150x150_jfs/t1/29614/2/3768/179869/5c2c293bE31e3bdc9/1bcb4888ad156a4e.jpg.dpg"
+            src="//img14.360buyimg.com/n1/s150x150_jfs/t1/27784/2/4208/151514/5c2f20adEd10158d7/d30cf3ceaa6795db.jpg.dpg"
             alt
           >
-          <div class="seckill-price">￥288</div>
-          <div class="init-price">￥368</div>
+          <div class="seckill-price">￥4899</div>
+          <div class="init-price">￥5199</div>
         </div>
       </div>
     </div>
@@ -300,6 +300,188 @@
         src="//m.360buyimg.com/mobilecms/s750x80_jfs/t20863/125/519979559/24806/2e941d67/5b0fecc7N541bb0dd.png!q70.jpg.dpg"
       >
     </div>
+
+    <div class="category-container">
+      <div class="category-container-bottom">
+        <div class="category-container-bottom-item">
+          <div class="item-title gradual-1">拍拍二手</div>
+          <div class="item-text text-black">iPhone 5折起</div>
+          <div class="div-img">
+            <img
+              src="//m.360buyimg.com/mobilecms/s150x150_jfs/t14251/339/1738489148/26244/792efe55/5a56fd12N458f4fe7.jpg!q70.jpg.dpg"
+            >
+          </div>
+        </div>
+
+        <div class="category-container-bottom-item">
+          <div class="item-title gradual-2">品牌秒杀</div>
+          <div class="item-text text-black">低价抢大牌</div>
+          <div class="div-img">
+            <img
+              src="//m.360buyimg.com/mobilecms/s150x150_jfs/t17464/360/397374747/63054/a11b2fb/5a72e34cNf6da61e6.png!q70.jpg.dpg"
+            >
+          </div>
+        </div>
+
+        <div class="category-container-bottom-item">
+          <div class="item-title gradual-1">闪购</div>
+          <div class="item-text text-black">精选1元购</div>
+          <div class="div-img">
+            <img
+              src="//img14.360buyimg.com/n1/s150x150_jfs/t1/21691/8/3972/197770/5c2dc23dEb39ab4e5/42297e0199e10b53.jpg.dpg"
+            >
+          </div>
+        </div>
+
+        <div class="category-container-bottom-item">
+          <div class="item-title gradual-2">优享免息</div>
+          <div class="item-text text-black">分期免息费</div>
+          <div class="div-img">
+            <img
+              src="//m.360buyimg.com/n1/s150x150_jfs/t1/18949/39/4013/149552/5c2d6afcE26a553a3/9ce02c746f96c85d.jpg!q70.jpg.dpg"
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 分割线---爱生活 -->
+    <div class="mei-ri-guang">
+      <img
+        src="//m.360buyimg.com/mobilecms/s750x80_jfs/t15526/56/2344102455/23273/d8e15d5a/5aa0dbc1Nefd2bd2a.png!q70.jpg.dpg"
+      >
+    </div>
+
+    <div class="category-container">
+      <div class="category-container-top">
+        <div class="category-container-top-item love-live">
+          <div class="item-title love-live-title">玩3C</div>
+          <div class="item-text love-live-text">玩转3C科技</div>
+          <div class="item-img-container">
+            <div class="item-img">
+              <img
+                src="//m.360buyimg.com/n1/s150x150_jfs/t25144/2/1278469398/101844/cb66b21/5b90f5bfNcd58f18b.png!q70.jpg.dpg"
+                alt
+              >
+            </div>
+
+            <div class="item-img">
+              <img
+                src="//m.360buyimg.com/mobilecms/s150x150_jfs/t22792/274/2587775944/59292/3666f607/5b87bf15N9409ba0e.png!q70.jpg.dpg"
+                alt
+              >
+            </div>
+          </div>
+        </div>
+        <div class="category-container-top-item love-live">
+          <div class="item-title love-live-title">京东家电</div>
+          <div class="item-text love-live-text">家电狂欢 京彩有你</div>
+          <div class="item-img-container">
+            <div class="item-img">
+              <img
+                src="//m.360buyimg.com/mobilecms/s150x150_jfs/t22363/318/1484948466/11138/8317fc9b/5b2a528eN7c6bde83.jpg!q70.jpg.dpg"
+                alt
+              >
+            </div>
+
+            <div class="item-img">
+              <img
+                src="//m.360buyimg.com/mobilecms/s150x150_jfs/t22666/293/257815171/29274/6b5605b1/5b2a5295N5a81ad96.jpg!q70.jpg.dpg"
+                alt
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="category-container-top">
+        <div class="category-container-top-item love-live">
+          <div class="item-title love-live-title">京东超市</div>
+          <div class="item-text love-live-text">超市大放价 抢超值好货</div>
+          <div class="item-img-container">
+            <div class="item-img">
+              <img
+                src="//m.360buyimg.com/n1/s150x150_jfs/t16852/170/2693122660/56143/28da8c2a/5b063c63N5746e4e4.jpg!q70.jpg.dpg"
+                alt
+              >
+            </div>
+
+            <div class="item-img">
+              <img
+                src="//m.360buyimg.com/n1/s150x150_jfs/t18877/293/2631103430/85245/f220b40d/5b063c6fN7820b399.jpg!q70.jpg.dpg"
+                alt
+              >
+            </div>
+          </div>
+        </div>
+        <div class="category-container-top-item love-live">
+          <div class="item-title love-live-title">爱家</div>
+          <div class="item-text love-live-text">家纺热卖 部分低至9.9元</div>
+          <div class="item-img-container">
+            <div class="item-img">
+              <img
+                src="//m.360buyimg.com/mobilecms/s150x150_jfs/t15244/283/356547262/47743/b6607b0f/5a2a6d51N8830e8b8.jpg!q70.jpg.dpg"
+                alt
+              >
+            </div>
+
+            <div class="item-img">
+              <img
+                src="//m.360buyimg.com/mobilecms/s150x150_jfs/t16057/38/102057973/36179/b957e4ec/5a2a6d55N83655f7f.jpg!q70.jpg.dpg"
+                alt
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="category-container-bottom">
+        <div class="category-container-bottom-item love-live">
+          <div class="item-title love-live-title">家有萌宝</div>
+          <div class="item-text love-live-text">低至5折</div>
+          <div class="div-img">
+            <img
+              src="//m.360buyimg.com/n1/s150x150_jfs/t17929/299/899794385/17291/d90318f9/5ab4c680N7d291625.jpg!q70.jpg.dpg"
+            >
+          </div>
+        </div>
+
+        <div class="category-container-bottom-item love-live">
+          <div class="item-title love-live-title">个护馆</div>
+          <div class="item-text love-live-text">9.9元拼购</div>
+          <div class="div-img">
+            <img
+              src="//m.360buyimg.com/n1/s150x150_jfs/t1/9920/35/9955/298173/5c1c3fdaE20128253/2a69b534052fb4c9.jpg!q70.jpg.dpg"
+            >
+          </div>
+        </div>
+
+        <div class="category-container-bottom-item love-live">
+          <div class="item-title love-live-title">爱吃</div>
+          <div class="item-text love-live-text">9.9包邮</div>
+          <div class="div-img">
+            <img
+              src="//m.360buyimg.com/mobilecms/s150x150_jfs/t14473/103/2042876100/41836/766c1953/5a697f47Nc952ed7f.jpg!q70.jpg.dpg"
+            >
+          </div>
+        </div>
+
+        <div class="category-container-bottom-item love-live">
+          <div class="item-title love-live-title">时尚衣橱</div>
+          <div class="item-text love-live-text">百变女神</div>
+          <div class="div-img">
+            <img
+              src="//m.360buyimg.com/mobilecms/s150x150_jfs/t20260/181/224299388/42393/9632586f/5b053603N0f65aec5.jpg!q70.jpg.dpg"
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 分割线---逛商场 -->
+    <div class="mei-ri-guang">
+      <img
+        src="//m.360buyimg.com/mobilecms/s750x80_jfs/t19381/275/717008577/26686/e58b7ef4/5aa23f27Nfa6d6be3.png!q70.jpg.dpg"
+      >
+    </div>
     <tgh-tabbar></tgh-tabbar>
   </div>
 </template>
@@ -324,6 +506,7 @@ export default {
 @color: #f10215;
 .home {
   padding-bottom: 100px;
+  padding-top: 44px;
   .van-swipe {
     height: 112px;
     img {
@@ -481,6 +664,10 @@ export default {
       .category-container-top-item {
         flex: 1;
         padding-top: 8px;
+        &.love-live {
+          padding-left: 10px;
+          padding-right: 10px;
+        }
         box-sizing: border-box;
         &:first-child {
           border-right: 1px solid #f5f5f5;
@@ -493,10 +680,19 @@ export default {
           height: 24px;
           line-height: 24px;
         }
+        .love-live-title {
+          text-align: left;
+          font-size: 16px;
+        }
+
         .item-text {
           text-align: center;
-          font-size: 13px;
+          font-size: 12px;
           color: #648eff;
+        }
+        .love-live-text {
+          text-align-last: left;
+          color: @color;
         }
         .item-img-container {
           display: flex;
@@ -521,6 +717,10 @@ export default {
         padding-top: 5px;
         border-right: 1px solid #f5f5f5;
         box-sizing: border-box;
+        &.love-live {
+          padding-left: 10px;
+          padding-right: 10px;
+        }
         &:last-child {
           border-right: 0;
         }
@@ -536,10 +736,33 @@ export default {
           height: 24px;
           line-height: 24px;
         }
+        .love-live-title {
+          text-align: left;
+          font-size: 16px;
+        }
+        .gradual-1 {
+          background: linear-gradient(90deg, #ff2a2a, #f139d2);
+          color: transparent;
+          background-clip: text;
+          -webkit-background-clip: text;
+        }
+        .gradual-2 {
+          background: linear-gradient(90deg, #fe8537, #f02b2b);
+          color: transparent;
+          background-clip: text;
+          -webkit-background-clip: text;
+        }
         .item-text {
           text-align: center;
           font-size: 12px;
           color: #648eff;
+        }
+        .love-live-text {
+          text-align-last: left;
+          color: @color;
+        }
+        .text-black {
+          color: #222222;
         }
       }
     }
