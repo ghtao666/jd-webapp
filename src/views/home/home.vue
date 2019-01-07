@@ -4,23 +4,23 @@
 
     <!-- 轮播图 -->
     <div class="swipe-container">
-      <van-swipe :autoplay="3000" indicator-color="white">
-        <van-swipe-item>
-          <img
-            src="//m.360buyimg.com/mobilecms/s750x366_jfs/t1/17486/31/4181/99175/5c2f465fEbe754e16/cd1c5695ee715610.jpg!cr_1125x549_0_72!q70.jpg.dpg"
-            alt
-          >
-        </van-swipe-item>
+      <van-swipe :autoplay="3000" :duration="300" indicator-color="white">
         <van-swipe-item>
           <img
             src="//m.360buyimg.com/mobilecms/s750x366_jfs/t1/23360/8/4031/468576/5c2dc861E189161bc/bac4293f6060aa5f.jpg!cr_1125x549_0_72!q70.jpg.dpg"
             alt
           >
         </van-swipe-item>
+        <van-swipe-item>
+          <img
+            src="//m.360buyimg.com/mobilecms/s750x366_jfs/t1/7681/10/11784/116684/5c2ed31bE80014381/827d8eb5ce229bb7.jpg!cr_1125x549_0_72!q70.jpg.dpg"
+            alt
+          >
+        </van-swipe-item>
 
         <van-swipe-item>
           <img
-            src="//m.360buyimg.com/mobilecms/s750x366_jfs/t1/17595/2/3960/100854/5c2c792fE5479c25a/23c861d84eb642de.jpg!cr_1125x549_0_72!q70.jpg.dpg"
+            src="//m.360buyimg.com/mobilecms/s750x366_jfs/t1/28271/11/4014/197362/5c2dece0E62c983d6/63877ba3cf1d8e36.jpg!cr_1125x549_0_72!q70.jpg.dpg"
             alt
           >
         </van-swipe-item>
@@ -642,6 +642,42 @@
       <span class="recommend-text">为你推荐</span>
       <span>————</span>
     </div>
+
+    <div class="recommend-container clearfix">
+      <van-list
+        v-model="loading"
+        :finished="finished"
+        finished-text="没有更多了"
+        @load="onLoad"
+        :offset="0"
+      >
+        <div class="recommend-item" v-for="recommend in recommendList" :key="recommend.description">
+          <img class="recommend-item-img" :src="recommend.src" alt>
+          <div class="recommend-item-text">
+            <div class="text">
+              <!-- 京东自营 -->
+              <img
+                v-if="recommend.src2Type==='self-support'"
+                :src="recommend.src2"
+                class="self-support"
+              >
+              <!-- 京东精选 -->
+              <img
+                v-if="recommend.src2Type==='choiceness'"
+                :src="recommend.src2"
+                class="choiceness"
+              >
+              {{recommend.description}}
+            </div>
+          </div>
+          <div class="recommend-item-price">
+            <span class="price">{{recommend.price}}</span>
+            <span class="look-similar van-hairline--surround">看相似</span>
+          </div>
+        </div>
+      </van-list>
+    </div>
+
     <tgh-tabbar></tgh-tabbar>
   </div>
 </template>
@@ -653,12 +689,77 @@ import TghTabbar from "@/components/tgh-tabbar";
 import CountDown from "@/components/count-down";
 export default {
   data() {
-    return {};
+    return {
+      recommendList: [
+        {
+          src:
+            "//img10.360buyimg.com/mobilecms/s372x372_jfs/t1/23213/28/1177/233576/5c0fa632E0ec5ce1f/aa002efb6cbe1851.jpg!q70.dpg",
+          src2:
+            "//img11.360buyimg.com/jdphoto/s48x28_jfs/t18820/32/891260489/1085/d4b6cf2c/5aadf9dbN7043e607.png",
+          src2Type: "self-support",
+          description:
+            "vivo NEX 双屏版 AI三摄 游戏手机 10GB+128GB 星漾紫 移动联通电信全网通4G手机",
+          price: "￥4998"
+        },
+        {
+          src:
+            "//img12.360buyimg.com/mobilecms/s372x372_jfs/t1/5064/31/3461/142209/5b997c0eE8b26d23e/8788a4743af36f36.jpg!q70.dpg",
+          src2:
+            "//img11.360buyimg.com/jdphoto/s100x28_jfs/t15376/77/2643750731/2688/443ac7d3/5aadf9daNc1b92ee6.png",
+          src2Type: "choiceness",
+          description:
+            "Apple iPhone XS (A2100) 64GB 深空灰色 移动联通电信4G手机",
+          price: "￥8699"
+        },
+        {
+          src:
+            "//img10.360buyimg.com/mobilecms/s372x372_jfs/t1/14607/40/4016/118126/5c2d7b4cEf983d315/685c884b83d92937.jpg!q70.dpg",
+          description:
+            "山泽（SAMZHE）Type-C扩展坞 USB-C转HDMI/VGA网口HUB多功能转换器 PD充电 十合一多功能拓展坞",
+          price: "￥299"
+        },
+        {
+          src:
+            "//img13.360buyimg.com/mobilecms/s372x372_jfs/t21676/331/408899771/187274/8b0f2561/5b0cead1N13f1dc56.jpg!q70.dpg",
+          description: "欧米茄(OMEGA)手表 星座系列时尚男表123.10.35.60.02.001",
+          price: "￥16985"
+        }
+      ],
+      loading: false,
+      finished: false
+    };
   },
   components: {
     TghHeader,
     TghTabbar,
     CountDown
+  },
+  methods: {
+    onLoad() {
+      // 异步更新数据
+      setTimeout(() => {
+        for (let i = 0; i < 6; i++) {
+          this.recommendList.push({
+            src:
+              "//img12.360buyimg.com/mobilecms/s372x372_jfs/t1/5064/31/3461/142209/5b997c0eE8b26d23e/8788a4743af36f36.jpg!q70.dpg",
+            src2:
+              "//img11.360buyimg.com/jdphoto/s100x28_jfs/t15376/77/2643750731/2688/443ac7d3/5aadf9daNc1b92ee6.png",
+            src2Type: "choiceness",
+            description:
+              "Apple iPhone XS (A2100) 64GB 深空灰色 移动联通电信4G手机" +
+              Math.random(),
+            price: "￥8699"
+          });
+        }
+        // 加载状态结束
+        this.loading = false;
+
+        // 数据全部加载完成
+        if (this.recommendList.length >= 30) {
+          this.finished = true;
+        }
+      }, 800);
+    }
   }
 };
 </script>
@@ -791,7 +892,7 @@ export default {
         .seckill-text {
           color: @color;
           font-weight: bold;
-          font-size: 18px;
+          font-size: 17px;
         }
         .seckill-time {
           font-size: 12px;
@@ -1038,6 +1139,62 @@ export default {
     .recommend-text {
       margin-left: 15px;
       margin-right: 15px;
+    }
+  }
+
+  .recommend-container {
+    .recommend-item {
+      width: 50%;
+      box-sizing: border-box;
+      float: left;
+      font-size: 14px;
+      border-bottom: 3px #f5f5f5 solid;
+      padding: 10px;
+      box-sizing: border-box;
+      height: 256px;
+      &:nth-child(2n + 1) {
+        border-right: 3px #f5f5f5 solid;
+      }
+      .recommend-item-img {
+        width: 100%;
+      }
+      .recommend-item-text {
+        display: flex;
+        align-items: flex-start;
+
+        .text {
+          text-overflow: -o-ellipsis-lastline;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          .self-support {
+            width: 23px;
+            margin-right: 5px;
+          }
+          .choiceness {
+            width: 46px;
+            margin-right: 5px;
+          }
+        }
+      }
+      .recommend-item-price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 5px;
+        .price {
+          color: @color;
+        }
+        .look-similar {
+          display: inline-block;
+          padding: 0px 5px;
+          height: 25px;
+          line-height: 25px;
+          font-size: 12px;
+        }
+      }
     }
   }
 }

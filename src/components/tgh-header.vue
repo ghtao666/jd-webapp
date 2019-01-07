@@ -24,7 +24,7 @@ export default {
     window.onscroll = () => {
       let scrollTop =
         document.documentElement.scrollTop || document.body.scrollTop;
-      if (scrollTop < 120) {
+      if (scrollTop < 50) {
         document.querySelector(".tgh-header").style.backgroundColor =
           "transparent";
       } else {
@@ -39,7 +39,7 @@ export default {
 @color: #e83632;
 
 .tgh-header {
-  max-width: 750px; //大写PX
+  max-width: 750PX; //大写PX
   position: fixed;
   top: 0px;
   left: 50%;
@@ -54,8 +54,10 @@ export default {
     color: #fff;
     height: 44px;
     .icon-fenleisvg {
-      margin-left: 10px;
-      margin-right: 10px;
+      font-size: 16px;
+      display: inline-block;  
+      width: 40px;
+      text-align: center;
     }
     .search-container {
       flex: 1;
@@ -87,9 +89,9 @@ export default {
       }
     }
     .login-text {
-      font-size: 14px;
-      margin-left: 10px;
-      margin-right: 10px;
+      width: 50px;
+      font-size: 16px;
+      text-align: center;
     }
   }
 }
