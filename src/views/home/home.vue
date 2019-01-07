@@ -158,6 +158,7 @@
         <div class="seckill-top-left">
           <span class="seckill-text">京东秒杀</span>
           <span class="seckill-time">22点场</span>
+          <count-down></count-down>
         </div>
         <div class="seckill-top-right">
           <span class="more">更多秒杀</span>
@@ -636,13 +637,15 @@
 <script>
 import TghHeader from "@/components/tgh-header";
 import TghTabbar from "@/components/tgh-tabbar";
+import CountDown from "@/components/count-down";
 export default {
   data() {
     return {};
   },
   components: {
     TghHeader,
-    TghTabbar
+    TghTabbar,
+    CountDown
   }
 };
 </script>
@@ -750,6 +753,7 @@ export default {
         .seckill-text {
           color: @color;
           font-weight: bold;
+          font-size: 18px;
         }
         .seckill-time {
           font-size: 12px;
@@ -785,12 +789,14 @@ export default {
           text-align: center;
           color: @color;
           font-weight: bold;
+          font-size: 16px;
         }
         .init-price {
           text-decoration: line-through;
           text-align: center;
           font-size: 12px;
           color: #ccc;
+          font-size: 12px;
         }
       }
     }
@@ -991,7 +997,7 @@ export default {
       color: #848689;
       font-size: 14px;
     }
-    .recommend-text{
+    .recommend-text {
       margin-left: 15px;
       margin-right: 15px;
     }

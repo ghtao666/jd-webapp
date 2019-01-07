@@ -35,6 +35,7 @@ export default {};
       padding-left: 10px;
       padding-right: 10px;
       color: #fff;
+      font-size: 16px;
     }
     .van-search {
       flex: 1;
