@@ -7,4 +7,4 @@
 # 界面
 ![首页](https://github.com/ghtao666/img-folder/blob/master/jd-4.png)
 ---
-![首页](https://github.com/ghtao666/img-folder/blob/master/jd-5.png)
+![首页](https://github.com/ghtao666/img-folder/blob/master/home2.gif)
