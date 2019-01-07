@@ -7,14 +7,13 @@
       <van-swipe :autoplay="3000" indicator-color="white">
         <van-swipe-item>
           <img
-            src="//m.360buyimg.com/mobilecms/s750x366_jfs/t1/23360/8/4031/468576/5c2dc861E189161bc/bac4293f6060aa5f.jpg!cr_1125x549_0_72!q70.jpg.dpg"
+            src="//m.360buyimg.com/mobilecms/s750x366_jfs/t1/17486/31/4181/99175/5c2f465fEbe754e16/cd1c5695ee715610.jpg!cr_1125x549_0_72!q70.jpg.dpg"
             alt
           >
         </van-swipe-item>
-
         <van-swipe-item>
           <img
-            src="//m.360buyimg.com/mobilecms/s750x366_jfs/t1/17486/31/4181/99175/5c2f465fEbe754e16/cd1c5695ee715610.jpg!cr_1125x549_0_72!q70.jpg.dpg"
+            src="//m.360buyimg.com/mobilecms/s750x366_jfs/t1/23360/8/4031/468576/5c2dc861E189161bc/bac4293f6060aa5f.jpg!cr_1125x549_0_72!q70.jpg.dpg"
             alt
           >
         </van-swipe-item>
@@ -677,7 +676,7 @@ export default {
       }
       .van-swipe__indicators {
         bottom: 20px;
-        .van-swipe__indicator{
+        .van-swipe__indicator {
           // background-color: transparent;
           // border:1px solid #fff;
           // box-sizing: border-box;
