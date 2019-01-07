@@ -17,7 +17,9 @@
 
 <script>
 export default {
-  data() {},
+  data() {
+    return {};
+  },
   mounted() {
     window.onscroll = () => {
       let scrollTop =
@@ -37,7 +39,7 @@ export default {
 @color: #e83632;
 
 .tgh-header {
-  max-width: 750PX;//大写PX
+  max-width: 750px; //大写PX
   position: fixed;
   top: 0px;
   left: 50%;
