@@ -1,2 +1,1 @@
-vue+vant
-仿京东app
+# 仿京东app
