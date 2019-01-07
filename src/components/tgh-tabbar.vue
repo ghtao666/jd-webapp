@@ -53,8 +53,13 @@ export default {
 
 <style lang="less">
 .tgh-tabbar {
-  .iconfont {
-    font-size: 20px;
+  .van-tabbar {
+    max-width: 750PX;//大写PX
+    left: 50%;
+    transform: translateX(-50%);
+    .iconfont {
+      font-size: 20px;
+    }
   }
 }
 </style>

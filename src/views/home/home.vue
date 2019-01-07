@@ -3,23 +3,37 @@
     <tgh-header></tgh-header>
 
     <!-- 轮播图 -->
-    <van-swipe :autoplay="3000" indicator-color="white">
-      <van-swipe-item>
-        <img src="//gw.alicdn.com/imgextra/i1/111/O1CN01pLHUhi1CgsSEPGNpl_!!111-0-lubanu.jpg" alt>
-      </van-swipe-item>
+    <div class="swipe-container">
+      <van-swipe :autoplay="3000" indicator-color="white">
+        <van-swipe-item>
+          <img
+            src="//m.360buyimg.com/mobilecms/s750x366_jfs/t1/23360/8/4031/468576/5c2dc861E189161bc/bac4293f6060aa5f.jpg!cr_1125x549_0_72!q70.jpg.dpg"
+            alt
+          >
+        </van-swipe-item>
 
-      <van-swipe-item>
-        <img src="//gw.alicdn.com/imgextra/i1/72/O1CN01Ypa8Sr1CP10UQZXOJ_!!72-0-lubanu.jpg" alt>
-      </van-swipe-item>
+        <van-swipe-item>
+          <img
+            src="//m.360buyimg.com/mobilecms/s750x366_jfs/t1/17486/31/4181/99175/5c2f465fEbe754e16/cd1c5695ee715610.jpg!cr_1125x549_0_72!q70.jpg.dpg"
+            alt
+          >
+        </van-swipe-item>
 
-      <van-swipe-item>
-        <img src="//gw.alicdn.com/imgextra/i4/121/O1CN01BRkXNc1ClSPnFdikI_!!121-0-lubanu.jpg" alt>
-      </van-swipe-item>
+        <van-swipe-item>
+          <img
+            src="//m.360buyimg.com/mobilecms/s750x366_jfs/t1/17595/2/3960/100854/5c2c792fE5479c25a/23c861d84eb642de.jpg!cr_1125x549_0_72!q70.jpg.dpg"
+            alt
+          >
+        </van-swipe-item>
 
-      <van-swipe-item>
-        <img src="//gw.alicdn.com/imgextra/i3/110/O1CN01jNPrek1CgQ3ecOxWe_!!110-0-lubanu.jpg" alt>
-      </van-swipe-item>
-    </van-swipe>
+        <van-swipe-item>
+          <img
+            src="//m.360buyimg.com/mobilecms/s750x366_jfs/t23554/196/252614617/149239/73b66270/5b2a6ecdNc10d686b.jpg!cr_1125x549_0_72!q70.jpg.dpg"
+            alt
+          >
+        </van-swipe-item>
+      </van-swipe>
+    </div>
 
     <div class="nav-container">
       <div class="nav">
@@ -652,14 +666,25 @@ export default {
 
 
 <style lang="less" >
-@color: #f10215;
+@color: #e83632;
 .home {
   padding-bottom: 100px;
-  padding-top: 44px;
-  .van-swipe {
-    height: 112px;
-    img {
-      width: 100%;
+  .swipe-container {
+    .van-swipe {
+      height: 182px;
+      img {
+        width: 100%;
+      }
+      .van-swipe__indicators {
+        bottom: 20px;
+        .van-swipe__indicator{
+          // background-color: transparent;
+          // border:1px solid #fff;
+          // box-sizing: border-box;
+          // width: 6px;
+          // height: 6px;
+        }
+      }
     }
   }
 
@@ -669,10 +694,11 @@ export default {
     justify-content: flex-start;
     flex-wrap: wrap;
     background-color: #fff;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    transform: translateY(-5px);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    transform: translateY(-13px);
     padding-top: 10px;
+
     .nav {
       flex: 1;
       display: flex;
@@ -694,7 +720,7 @@ export default {
   .notice-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin-top: 5px;
     img {
       width: 73px;
@@ -704,11 +730,24 @@ export default {
     .van-swipe {
       flex: 1;
       height: 20px;
+      line-height: 20px;
+      .van-swipe-item {
+        height: 20px;
+        line-height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
       .hot {
         color: @color;
         font-size: 14px;
+        margin-right: 5px;
       }
       .content {
+        display: inline-block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
         font-size: 14px;
       }
     }
@@ -716,7 +755,7 @@ export default {
       margin-right: 10px;
       margin-left: 5px;
       color: #181818;
-      font-size: 13px;
+      font-size: 14px;
     }
   }
 

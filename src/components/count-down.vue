@@ -12,7 +12,7 @@
 export default {
   data() {
     return {
-      time: "01-00-11",
+      time: "01-00-39",
       hour: "",
       min: "",
       second: ""
@@ -57,7 +57,7 @@ export default {
     padding-right: 2px;
   }
   .colon{
-    
+
   }
 }
 </style>

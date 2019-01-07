@@ -11,8 +11,9 @@ export default {
 </script>
 
 <style lang="less">
+
 #app {
-  max-width: 750px;
+  max-width: 750PX;//大写PX
   margin: 0 auto;
 }
 </style>
