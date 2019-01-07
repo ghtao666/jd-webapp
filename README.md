@@ -4,4 +4,4 @@
 * vue
 * vant
 # 界面
-![首页](https://github.com/ghtao666/img-folder/blob/master/jd-1.png)
+![首页](https://github.com/ghtao666/img-folder/blob/master/jd-2.png)
