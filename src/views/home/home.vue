@@ -157,7 +157,7 @@
       <div class="seckill-top">
         <div class="seckill-top-left">
           <span class="seckill-text">京东秒杀</span>
-          <span class="seckill-time">20点场</span>
+          <span class="seckill-time">22点场</span>
         </div>
         <div class="seckill-top-right">
           <span class="more">更多秒杀</span>
@@ -203,6 +203,13 @@
       </div>
     </div>
 
+    <div class="new-people-gif">
+      <img
+        src="//m.360buyimg.com/mobilecms/jfs/t1/19774/32/3402/157493/5c2709cfE99b0d1ef/f2ea3a8cb134cfc4.gif"
+        alt
+      >
+    </div>
+
     <!-- 分割线---东家小院 -->
     <div class="dong-jia-xiao-yuan">
       <img
@@ -213,7 +220,7 @@
     <div class="category-container">
       <div class="category-container-top">
         <div class="category-container-top-item">
-          <div class="item-title">奢品大牌</div>
+          <div class="item-title">— 奢品大牌 —</div>
           <div class="item-text">倍有面的大牌推荐</div>
           <div class="item-img-container">
             <div class="item-img">
@@ -232,7 +239,7 @@
           </div>
         </div>
         <div class="category-container-top-item">
-          <div class="item-title">秋冬童装</div>
+          <div class="item-title">— 秋冬童装 —</div>
           <div class="item-text">妈妈放心，宝宝舒心</div>
           <div class="item-img-container">
             <div class="item-img">
@@ -482,6 +489,145 @@
         src="//m.360buyimg.com/mobilecms/s750x80_jfs/t19381/275/717008577/26686/e58b7ef4/5aa23f27Nfa6d6be3.png!q70.jpg.dpg"
       >
     </div>
+
+    <div class="category-container">
+      <div class="category-container-top-guang-shang-chang">
+        <div class="guang-shang-chang-item">
+          <div class="guang-shang-chang-item-left">
+            <div class="guang-shang-chang-title">医药城</div>
+            <div class="guang-shang-chang-text">大牌直降</div>
+          </div>
+          <div class="guang-shang-chang-item-right">
+            <img
+              src="//m.360buyimg.com/n1/s180x180_jfs/t17266/210/329403888/25547/5451c4a5/5a6aece8Nbd3e4c89.jpg!q70.jpg.dpg"
+            >
+          </div>
+        </div>
+        <div class="guang-shang-chang-item">
+          <div class="guang-shang-chang-item-left">
+            <div class="guang-shang-chang-title">进口馆</div>
+            <div class="guang-shang-chang-text">满199减100</div>
+          </div>
+          <div class="guang-shang-chang-item-right">
+            <img
+              src="//m.360buyimg.com/n1/s180x180_jfs/t15823/197/1830681024/449185/d32f9121/5a6955a1N1a5353c0.jpg!q70.jpg.dpg"
+            >
+          </div>
+        </div>
+      </div>
+      <div class="category-container-top-guang-shang-chang">
+        <div class="guang-shang-chang-item">
+          <div class="guang-shang-chang-item-left">
+            <div class="guang-shang-chang-title">内衣馆</div>
+            <div class="guang-shang-chang-text">年中狂欢购</div>
+          </div>
+          <div class="guang-shang-chang-item-right">
+            <img
+              src="//m.360buyimg.com/n1/s180x180_jfs/t20995/242/758982428/30159/affb6143/5b1795cbN1b3b96b1.jpg!q70.jpg.dpg"
+            >
+          </div>
+        </div>
+        <div class="guang-shang-chang-item">
+          <div class="guang-shang-chang-item-left">
+            <div class="guang-shang-chang-title">美妆馆</div>
+            <div class="guang-shang-chang-text">免费试用</div>
+          </div>
+          <div class="guang-shang-chang-item-right">
+            <img
+              src="//m.360buyimg.com/n1/s180x180_jfs/t1/11094/6/2903/395639/5c18d4baE538da852/3d6cd9b6efe72599.jpg!q70.jpg.dpg"
+            >
+          </div>
+        </div>
+      </div>
+      <div class="category-container-bottom guang-shang-chang">
+        <div class="category-container-bottom-item guang-shang-chang">
+          <div class="item-title guang-shang-chang-title">美食城</div>
+          <div class="item-text guang-shang-chang-text">低至5折</div>
+          <div class="div-img">
+            <img
+              src="//m.360buyimg.com/mobilecms/s150x150_jfs/t16705/82/285076461/40568/d2f7fc14/5a698c01Nab864629.jpg!q70.jpg.dpg"
+            >
+          </div>
+        </div>
+
+        <div class="category-container-bottom-item guang-shang-chang">
+          <div class="item-title guang-shang-chang-title">手机馆</div>
+          <div class="item-text guang-shang-chang-text">享白条免息</div>
+          <div class="div-img">
+            <img
+              src="//m.360buyimg.com/n1/s150x150_jfs/t1/1314/33/11714/171227/5bd01017E066acc3f/381f3dd2118227ec.jpg!q70.jpg.dpg"
+            >
+          </div>
+        </div>
+
+        <div class="category-container-bottom-item guang-shang-chang">
+          <div class="item-title guang-shang-chang-title">生鲜馆</div>
+          <div class="item-text guang-shang-chang-text">尝鲜秒杀</div>
+          <div class="div-img">
+            <img
+              src="//m.360buyimg.com/n1/s150x150_jfs/t24940/151/2670283760/320387/8d571f7b/5bece337Na6d4e8c5.jpg!q70.jpg.dpg"
+            >
+          </div>
+        </div>
+
+        <div class="category-container-bottom-item guang-shang-chang">
+          <div class="item-title guang-shang-chang-title">家装城</div>
+          <div class="item-text guang-shang-chang-text">家装一站购</div>
+          <div class="div-img">
+            <img
+              src="//m.360buyimg.com/n1/s150x150_jfs/t21118/317/454557829/72252/b89aac99/5b0e6ad9N67c11d54.jpg!q70.jpg.dpg"
+            >
+          </div>
+        </div>
+      </div>
+      <div class="category-container-bottom">
+        <div class="category-container-bottom-item guang-shang-chang">
+          <div class="item-title guang-shang-chang-title">钟表馆</div>
+          <div class="item-text guang-shang-chang-text">百元直降</div>
+          <div class="div-img">
+            <img
+              src="//m.360buyimg.com/n1/s150x150_jfs/t16618/154/356149823/20882/5e1d0792/5a6e8cb8N2873f417.jpg!q70.jpg.dpg"
+            >
+          </div>
+        </div>
+
+        <div class="category-container-bottom-item guang-shang-chang">
+          <div class="item-title guang-shang-chang-title">童装馆</div>
+          <div class="item-text guang-shang-chang-text">爱尚童潮</div>
+          <div class="div-img">
+            <img
+              src="//m.360buyimg.com/n1/s150x150_jfs/t20614/194/808562651/89118/894d41a5/5b18ba8dN855ebe44.png!q70.jpg.dpg"
+            >
+          </div>
+        </div>
+
+        <div class="category-container-bottom-item guang-shang-chang">
+          <div class="item-title guang-shang-chang-title">奢品馆</div>
+          <div class="item-text guang-shang-chang-text">奢品精选</div>
+          <div class="div-img">
+            <img
+              src="//m.360buyimg.com/n1/s150x150_jfs/t19339/53/365151960/30948/61e1b312/5a6e8c33Ne82f49d9.jpg!q70.jpg.dpg"
+            >
+          </div>
+        </div>
+
+        <div class="category-container-bottom-item guang-shang-chang">
+          <div class="item-title guang-shang-chang-title">珠宝馆</div>
+          <div class="item-text guang-shang-chang-text">满减优惠</div>
+          <div class="div-img">
+            <img
+              src="//m.360buyimg.com/n1/s150x150_jfs/t19009/357/347377157/13661/d0d9e5fb/5a6e8bb3Nd6182f9f.jpg!q70.jpg.dpg"
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider-recommend">
+      <span>————</span>
+      <span class="recommend-text">为你推荐</span>
+      <span>————</span>
+    </div>
     <tgh-tabbar></tgh-tabbar>
   </div>
 </template>
@@ -593,23 +739,28 @@ export default {
   .seckill-container {
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 15px;
     .seckill-top {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      height: 20px;
       .seckill-top-left {
+        display: flex;
+        align-items: center;
         .seckill-text {
           color: @color;
           font-weight: bold;
         }
         .seckill-time {
-          font-size: 14px;
+          font-size: 12px;
           font-weight: bold;
+          margin-left: 5px;
         }
       }
 
       .seckill-top-right {
+        display: flex;
+        align-items: center;
         .more {
           font-size: 12px;
           color: @color;
@@ -644,7 +795,11 @@ export default {
       }
     }
   }
-
+  .new-people-gif {
+    img {
+      width: 100%;
+    }
+  }
   .dong-jia-xiao-yuan {
     display: flex;
     justify-content: center;
@@ -668,6 +823,7 @@ export default {
           padding-left: 10px;
           padding-right: 10px;
         }
+
         box-sizing: border-box;
         &:first-child {
           border-right: 1px solid #f5f5f5;
@@ -691,7 +847,7 @@ export default {
           color: #648eff;
         }
         .love-live-text {
-          text-align-last: left;
+          text-align: left;
           color: @color;
         }
         .item-img-container {
@@ -712,12 +868,19 @@ export default {
       display: flex;
       justify-content: flex-start;
       align-items: center;
+      &.guang-shang-chang {
+        border-bottom: 1px solid #f5f5f5;
+      }
       .category-container-bottom-item {
         flex: 1;
         padding-top: 5px;
         border-right: 1px solid #f5f5f5;
         box-sizing: border-box;
         &.love-live {
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+        &.guang-shang-chang {
           padding-left: 10px;
           padding-right: 10px;
         }
@@ -740,6 +903,10 @@ export default {
           text-align: left;
           font-size: 16px;
         }
+        .guang-shang-chang-title {
+          text-align: left;
+          font-size: 16px;
+        }
         .gradual-1 {
           background: linear-gradient(90deg, #ff2a2a, #f139d2);
           color: transparent;
@@ -758,11 +925,49 @@ export default {
           color: #648eff;
         }
         .love-live-text {
-          text-align-last: left;
+          text-align: left;
           color: @color;
+        }
+        .guang-shang-chang-text {
+          text-align: left;
+          color: #d663e1;
         }
         .text-black {
           color: #222222;
+        }
+      }
+    }
+    .category-container-top-guang-shang-chang {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      border-bottom: 1px solid #f5f5f5;
+      .guang-shang-chang-item {
+        flex: 1;
+        display: flex;
+        justify-content: flex-start;
+        &:first-child {
+          border-right: 1px solid #f5f5f5;
+        }
+        .guang-shang-chang-item-left {
+          flex: 1;
+          padding-left: 10px;
+          padding-top: 10px;
+          .guang-shang-chang-title {
+            text-align: left;
+            font-size: 16px;
+          }
+          .guang-shang-chang-text {
+            text-align: left;
+            color: #d663e1;
+            font-size: 12px;
+          }
+        }
+        .guang-shang-chang-item-right {
+          flex: 1;
+          img {
+            width: 100%;
+          }
         }
       }
     }
@@ -770,8 +975,25 @@ export default {
 
   .mei-ri-guang {
     background-color: #f5f5f5;
+    height: 35px;
     img {
       width: 100%;
+    }
+  }
+
+  .divider-recommend {
+    height: 35px;
+    background-color: #f6f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    span {
+      color: #848689;
+      font-size: 14px;
+    }
+    .recommend-text{
+      margin-left: 15px;
+      margin-right: 15px;
     }
   }
 }

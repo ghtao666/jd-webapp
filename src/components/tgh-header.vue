@@ -3,7 +3,7 @@
     <div class="header">
       <i class="iconfont icon-jingdong"></i>
 
-      <van-search background="#e83632" placeholder="请输入搜索关键词" show-action>
+      <van-search background="#e83632" placeholder="笔记本" show-action>
         <div slot="action">搜索</div>
       </van-search>
     </div>

@@ -12,10 +12,7 @@ export default {
 
 <style lang="less">
 #app {
-  html,body{
-    padding: 0;
-    margin: 0;
-    font-size: 0;
-  }
+  max-width: 750px;
+  margin: 0 auto;
 }
 </style>
