@@ -17,7 +17,7 @@ export default {
 
   .clearfix {
     overflow: auto;
-    _height: 1%;
+    // height: 1%;
   }
 }
 </style>
