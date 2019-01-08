@@ -12,6 +12,9 @@ const portfinder = require('portfinder')
 
 const HOST = process.env.HOST
 const PORT = process.env.PORT && Number(process.env.PORT)
+function resolve(dir) {
+  return path.join(__dirname, '..', dir)
+}
 
 const devWebpackConfig = merge(baseWebpackConfig, {
   module: {
@@ -55,7 +58,9 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     new HtmlWebpackPlugin({
       filename: 'index.html',
       template: 'index.html',
-      inject: true
+      inject: true,
+      // favicon: resolve('favicon.ico'),
+      title: 'jd'
     }),
     // copy custom static assets
     new CopyWebpackPlugin([
@@ -85,8 +90,8 @@ module.exports = new Promise((resolve, reject) => {
           messages: [`Your application is running here: http://${devWebpackConfig.devServer.host}:${port}`],
         },
         onErrors: config.dev.notifyOnErrors
-        ? utils.createNotifierCallback()
-        : undefined
+          ? utils.createNotifierCallback()
+          : undefined
       }))
 
       resolve(devWebpackConfig)

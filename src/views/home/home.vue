@@ -723,6 +723,28 @@ export default {
             "//img13.360buyimg.com/mobilecms/s372x372_jfs/t21676/331/408899771/187274/8b0f2561/5b0cead1N13f1dc56.jpg!q70.dpg",
           description: "欧米茄(OMEGA)手表 星座系列时尚男表123.10.35.60.02.001",
           price: "￥16985"
+        },
+
+        {
+          src:
+            "//img12.360buyimg.com/mobilecms/s372x372_jfs/t1/966/3/3746/82542/5b997c01E2a0b6915/2946c53c7a2f137f.jpg!q70.dpg",
+          description:
+            "Apple iPhone XR (A2108) 128GB 黄色 移动联通电信4G手机 双卡双待",
+          src2:
+            "//img11.360buyimg.com/jdphoto/s48x28_jfs/t18820/32/891260489/1085/d4b6cf2c/5aadf9dbN7043e607.png",
+          src2Type: "self-support",
+          price: "￥6999"
+        },
+
+        {
+          src:
+            "//img12.360buyimg.com/mobilecms/s372x372_jfs/t30256/83/845348333/255460/8820e616/5bff5690Nd558f600.jpg!q70.dpg",
+          description:
+            "F6 supershot 浓缩 葛根姜植物饮品 酒搭档芒果味功能饮料 汤臣倍健酒伴侣 60ml*6瓶/盒",
+          src2:
+            "//img11.360buyimg.com/jdphoto/s48x28_jfs/t18820/32/891260489/1085/d4b6cf2c/5aadf9dbN7043e607.png",
+          src2Type: "self-support",
+          price: "￥109"
         }
       ],
       loading: false,
@@ -768,7 +790,7 @@ export default {
 <style lang="less" >
 @color: #e83632;
 .home {
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   .swipe-container {
     .van-swipe {
       height: 182px;
@@ -777,13 +799,6 @@ export default {
       }
       .van-swipe__indicators {
         bottom: 20px;
-        .van-swipe__indicator {
-          // background-color: transparent;
-          // border:1px solid #fff;
-          // box-sizing: border-box;
-          // width: 6px;
-          // height: 6px;
-        }
       }
     }
   }
@@ -1143,8 +1158,10 @@ export default {
   }
 
   .recommend-container {
+    background-color: #f5f5f5;
     .recommend-item {
       width: 50%;
+      background-color: #fff;
       box-sizing: border-box;
       float: left;
       font-size: 14px;
