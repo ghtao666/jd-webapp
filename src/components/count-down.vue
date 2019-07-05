@@ -12,10 +12,11 @@
 export default {
   data() {
     return {
-      time: "01-00-39",
+      time: "01-00-18",
       hour: "",
       min: "",
-      second: ""
+      second: "",
+      interval: null
     };
   },
   created() {
@@ -23,7 +24,7 @@ export default {
     this.min = this.time.split("-")[1].padStart(2, "0");
     this.second = this.time.split("-")[2].padStart(2, "0");
 
-    setInterval(() => {
+    this.interval = setInterval(() => {
       this.second = (this.second - 1 + "").padStart(2, "0");
       if (this.second === "-1") {
         this.second = "59";
@@ -39,11 +40,14 @@ export default {
         }
       }
     }, 1000);
+  },
+  beforeDestroy(){
+    clearInterval(this.interval)
   }
 };
 </script>
 
-<style lang="less">
+<style lang="less" scoped>
 .count-down {
   display: flex;
   justify-content: flex-start;
@@ -55,9 +59,6 @@ export default {
     line-height: 20px;
     padding-left: 2px;
     padding-right: 2px;
-  }
-  .colon{
-
   }
 }
 </style>
