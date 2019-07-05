@@ -6,3 +6,7 @@
 * webpack
 # 界面
 ![首页](https://github.com/ghtao666/img-folder/blob/master/home2.gif)
+# 运行
+* git clone 
+* vant
+* webpack
