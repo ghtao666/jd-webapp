@@ -14,9 +14,9 @@ git clone https://github.com/ghtao666/jd-webapp.git
 # 进入项目目录
 cd jd-webapp
 
-#安装依赖
+# 安装依赖
 npm install
 
-#启动服务
+# 启动服务
 npm run dev
 ```
